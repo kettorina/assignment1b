@@ -8,10 +8,11 @@
     <artifactId>assignment1b</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <repositories>
         <repository>
-            <id>dropbox_mvn_repo</id>
-            <url>https://www.dropbox.com/sh/ghs1w3hpg722grz/AABa5Pg3I_I9pNLBT7v7q_lja?dl=0</url>
+            <id>danu_mvn_repo</id>
+            <url>http://danu6.it.nuigalway.ie/14375151/danu_mvn_repo/</url>
         </repository>
     </repositories>
 
@@ -43,7 +44,7 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>https://www.dropbox.com/sh/ghs1w3hpg722grz/AABa5Pg3I_I9pNLBT7v7q_lja?dl=0</url>
+                            <url>http://danu6.it.nuigalway.ie/14375151/danu_mvn_repo/</url>
                             <outputFileName>University.UniversityList</outputFileName>
                             <!-- default target location, just to demonstrate the parameter -->
                             <outputDirectory>${project.build.directory}</outputDirectory>
