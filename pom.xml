@@ -11,7 +11,7 @@
     <repositories>
         <repository>
             <id>dropbox_mvn_repo</id>
-            <url>file://C:/Users/jzenk/Dropbox/dropbox_mvn_repo</url>
+            <url>https://www.dropbox.com/sh/ghs1w3hpg722grz/AABa5Pg3I_I9pNLBT7v7q_lja?dl=0</url>
         </repository>
     </repositories>
 
